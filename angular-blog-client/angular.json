@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.less",
               "../node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
@@ -34,6 +35,11 @@
               "../node_modules/jquery/dist/jquery.min.js",
               "../node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
+=======
+              "src/styles.less"
+            ],
+            "scripts": []
+>>>>>>> 14b49fbb4597b89c21590446b0e269618b765cee
           },
           "configurations": {
             "production": {
@@ -140,4 +146,8 @@
     }
   },
   "defaultProject": "angular-blog-client"
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 14b49fbb4597b89c21590446b0e269618b765cee
