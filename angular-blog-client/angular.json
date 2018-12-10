@@ -27,19 +27,9 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-              "src/styles.less",
-              "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-            ],
-            "scripts": [
-              "../node_modules/jquery/dist/jquery.min.js",
-              "../node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
-=======
               "src/styles.less"
             ],
             "scripts": []
->>>>>>> 14b49fbb4597b89c21590446b0e269618b765cee
           },
           "configurations": {
             "production": {
@@ -115,39 +105,7 @@
           }
         }
       }
-    },
-    "angular-blog-client-e2e": {
-      "root": "e2e/",
-      "projectType": "application",
-      "prefix": "",
-      "architect": {
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-blog-client:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "angular-blog-client:serve:production"
-            }
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": "e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        }
-      }
     }
   },
   "defaultProject": "angular-blog-client"
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 14b49fbb4597b89c21590446b0e269618b765cee
